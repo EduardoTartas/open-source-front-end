@@ -1,0 +1,12 @@
+nav{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+nav input {
+    width: 25%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background: url('../images/lupa.png') no-repeat right 10px center;
+}

@@ -1,0 +1,82 @@
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+main .card {
+    transition: 0.5s;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 360px;
+    height: 440px;
+}
+
+main .card div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    border-radius: 8px 8px 0 0;
+}
+
+main .card img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+main .card .card-content {
+    padding: 16px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+
+main .card .card-content h3 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #202124e1;
+}
+
+main .card .card-content p {
+    padding-top: 16px;
+    font-size: 16px;
+    color: #2a2b2ecb;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 60px;
+}
+
+main .card .card-content span {
+    margin-right: 8px;
+    padding: 2px 5px;
+    font-size: 14px;
+    color: #5F6369;
+    border: 1px solid #5f6369a6;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+}
+
+main .card .card-content button {
+    color: #1C73E8;
+    font-size: 14px;
+    margin-top: 23px;
+    font-weight: 700;
+    display: block;
+    padding: 10px 30px;
+    border: 1px solid #CECECE;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+main .card .card-content button:hover {
+    color: #fff;
+    background-color: #1C73E8;
+}
+
+main .card:hover {
+    scale: 102%;
+    transition: 0.5s;
+}
